@@ -12,8 +12,10 @@ ecdsa = { version = "0.16.9", features = [
     "serde",
     "pem",
 ] }
-hex = "0.4.3"
-k256 = { version = "0.13.4", features = ["serde", "pem"] }
+k256 = { version = "0.13.3", features = ["serde", "pem"] }
 serde = { version = "1.0.219", features = ["derive"] }
 sha256 = "1.6.0"
-uint = "0.10.0"
+uint = "0.9.5"
+hex = "0.4.3"
+uuid = { version = "1.8.0", features = ["v4", "serde"] }
+rand = "0.8.5"
